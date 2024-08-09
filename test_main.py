@@ -4,7 +4,7 @@ from main import add, add_sales_tax
 
 
 def test_add():
-    assert add(5, 5) == 10
+    assert add(5, 5) == 11
     
 def test_add_throws_error_on_characters():
     with pytest.raises(ValueError) as e_info:
